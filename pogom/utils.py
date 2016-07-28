@@ -43,7 +43,7 @@ def get_args():
                         default=12)
     parser.add_argument('-sd', '--scan-delay',
                         help='Time delay between requests in scan threads',
-                        type=float, default=5)
+                        type=float, default=2)
     parser.add_argument('-td', '--thread-delay',
                         help='Time delay between each scan thread loop',
                         type=float, default=5)
@@ -84,7 +84,7 @@ def get_args():
                         action='store_true', default=False)
     parser.add_argument('-D', '--db', help='Database filename',
                         default='pogom.db')
-    parser.add_argument('-t', '--num-threads', help='Number of search threads', type=int, default=1)
+    parser.add_argument('-t', '--num-threads', help='Number of search threads', type=int, default=7)
     parser.add_argument('-np', '--no-pokemon',
                         help='Disables Pokemon from the map (including parsing them into local db)',
                         action='store_true', default=False)
