@@ -84,7 +84,7 @@ def get_args():
                         action='store_true', default=False)
     parser.add_argument('-D', '--db', help='Database filename',
                         default='pogom.db')
-    parser.add_argument('-t', '--num-threads', help='Number of search threads', type=int, default=7)
+    parser.add_argument('-t', '--num-threads', help='Number of search threads', type=int, default=8)
     parser.add_argument('-np', '--no-pokemon',
                         help='Disables Pokemon from the map (including parsing them into local db)',
                         action='store_true', default=False)
@@ -95,7 +95,7 @@ def get_args():
                         help='Disables PokeStops from the map (including parsing them into local db)',
                         action='store_true', default=False)
     parser.add_argument('--db-type', help='Type of database to be used (default: sqlite)',
-                        default='sqlite')
+                        default='mysql')
     parser.add_argument('--db-name', help='Name of the database to be used')
     parser.add_argument('--db-user', help='Username for the database')
     parser.add_argument('--db-pass', help='Password for the database')
