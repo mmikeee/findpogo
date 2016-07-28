@@ -95,7 +95,7 @@ def get_args():
                         help='Disables PokeStops from the map (including parsing them into local db)',
                         action='store_true', default=False)
     parser.add_argument('--db-type', help='Type of database to be used (default: mysql)',
-                        default='mysql')
+                        default='sqlite')
     parser.add_argument('--db-name', help='Name of the database to be used')
     parser.add_argument('--db-user', help='Username for the database')
     parser.add_argument('--db-pass', help='Password for the database')
