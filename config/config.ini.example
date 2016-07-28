@@ -4,11 +4,11 @@
 #password:
 
 # Database settings
-#db-type: sqlite        # sqlite (default) or mysql
-#db-host:               # required for mysql
-#db-name:               # required for mysql
-#db-user:               # required for mysql
-#db-pass:               # required for mysql
+#db-type: mysql        # sqlite (default) or mysql
+#db-host: mysql://b79cf4c0c2f1ee:425cb313@us-cdbr-iron-east-04.cleardb.net/heroku_32f3ad8822da810?reconnect=true              # required for mysql
+#db-name: heroku_32f3ad8822da810              # required for mysql
+#db-user: b79cf4c0c2f1ee              # required for mysql
+#db-pass: 425cb313              # required for mysql
 
 # Search settings
 #location:
